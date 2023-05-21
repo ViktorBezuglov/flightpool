@@ -1,0 +1,365 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background: url(./images/fonallstr.jpg);
+    background-attachment: fixed, scroll, local;
+}
+.page {
+    margin: 0 auto;
+    width: 900px;
+}
+.main {
+    margin: 15px;
+    background: rgba(91, 178, 236, 0.671);
+    outline: 1px solid black;
+    border: 3px rgba(91, 178, 236, 0.671);
+    border-radius: 5px;
+}
+.footer {
+    margin: 15px;
+    background-color: white;
+}
+.navigate {
+    background: #ECDAD6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.zag {
+    vertical-align: middle;
+    font-family: fantasy;
+    color: #695753;
+}
+nav {
+    width: 660px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.topmenu>li {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 20px;
+    position: relative;
+    font-size: 23px;
+}
+a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    outline: none;
+}
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 140%;
+    z-index: 10;
+}
+h2 {
+    text-align: center;
+    color: #000000;
+}
+.content h3 {
+    text-align: center;
+    color: #000000;
+}
+.content p {
+    margin-left: 5%;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.form {
+    margin: 0 auto;
+    text-align: center;
+    color: #000000;
+}
+.form input {
+    margin: 10px;
+    width: 40%;
+    height: 30px;
+}
+.btn-16 {
+    background: #000;
+    color: rgb(3, 3, 3);
+    z-index: 1;
+}
+button {
+    margin: 20px;
+    outline: none;
+}
+.button23{
+	display: flex;
+	position: relative;
+    left: 30%;
+}
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    padding: 10px 25px;
+    border: 2px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.btn-16:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: #e0e5ec;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.btn-16:hover {
+    color: #000;
+}
+.btn-16:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+.btn-16:active {
+    top: 2px;
+}
+
+.content img {
+    margin: 0 auto;
+    width: 70%;
+    margin-left: 15%;
+}
+.menu ul {
+    background: #ECDAD6;
+}
+.menu ul a {
+    color: #695753;
+}
+.submenu {
+    display: none;
+    text-align: center;
+}
+li:hover {
+    transition: 1.25s;
+    background: lightblue;
+}
+.menu ul li:hover .submenu {
+    display: block;
+}
+.wrap {
+    height: 350px;
+    margin: 50px auto 0;
+    position: relative;
+    width: 500px;
+}
+.wrap>input {
+    display: none;
+}
+.slid {
+    height: 400px;
+    width: 40%;
+}
+.slider {
+    position: relative;
+    margin: auto;
+    height: 392px;
+    margin-top: 4%;
+    display: block;
+}
+.slider .item img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+.slider .previous,
+.slider .next {    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+.footer {
+    margin: 15px;
+    background: #ECDAD6;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    color: #695753;
+    border-radius: 15px;
+}
+.footer img {
+    margin-left: 80%;
+}
+.table1 {
+    text-align: center;
+}
+.soc {
+    text-align: center;
+}
+hr{
+    border: none;
+    background-color: black;
+    color: black; 
+    height: 1px; 
+}
+.social-link{
+        margin-left: 5px;
+        height: 15px;
+        width: 15px;
+    }
+    .profile_div {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.trust_div {
+    background: #ffece1;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10px;
+}
+.test-3-name,
+.test-3-last {
+    margin-right: 3px;
+    margin-left: 2px;
+    font-size: 18px;
+}
+
+.test-3-num {
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.test-3-code,
+.test-3-d1,
+.test-3-t1,
+.test-3-t2,
+.test-3-from,
+.test-3-to {
+    width: 16%;
+}
+.search_table {
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+}
+.test-5-name,
+.test-5-last,
+.test-5-dob,
+.test-5-doc {
+    width: 25%;
+}
+.test-5-add {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    background-color: #e9ffe1;
+    border-color: #79ffa1;
+    width: 176px;
+    margin-bottom: 10px;
+}
+.koguvcavis-varazdel {
+  padding: 38px 0;
+  color: #2f2f2f;
+  text-align: center;
+}
+.sestim-donials{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.sectionesag {
+  width: 195px;
+  height: 3px;
+  background: #498a2d;
+  margin: 23px auto;
+}
+
+.sagestim-lonials{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.vemotau-vokusipol{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial {
+  background: #f9f4f4;
+  padding: 28px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.gecedanam{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.apogered-gselected{
+  color: #53b32b;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:960px) {
+.vemotau-vokusipol{
+  flex: 100%;
+  max-width: 80%;
+}
+}
+
+@media screen and (max-width:600px) {
+.vemotau-vokusipol{
+  flex: 100%;
+  max-width: 100%;
+}
+}

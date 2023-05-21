@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авиакомпания "FlightPool"</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="page">
+        <div class="navigate">
+            <nav class="menu">
+                <ul class="topmenu">
+                    <li><a href="./index.html">Главная</a></li>
+                    <li><a href="#2">Контакты</a></li>
+                    <li>
+                        <p class="zag" font-family: Market felt, fantasy>FlightPool</p>
+                        <a href="./index.html"><img src="./images/ЛоготипАв.jpg" width="60px" height="60" class="logo class1 class2 test-logo" /></a>
+                    </li>
+                    <li><a href="#1" class=”test-nav-1”>Акции</a></li>
+                    <li><a href="#">Личный Кабинет</a>
+                        <ul class="submenu">
+                            <li><a href="./login.html">Вход</a></li>
+                            <li><a href="./sign.html">Регистрация</a></li>
+                            <li><a href="./admin.html">Бронирование</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="slider">
+                <div class="item">
+                    <img class="item1" src="./images/images/aircrafts/._CRJ-200-interior.jpg">
+                </div>
+                <div class="item">
+                    <img class="item1" src="./images/images/aircrafts/try1.jpg">
+                </div>
+                <div class="item">
+                    <img class="item1" src="./images/images/aircrafts/try5.jpg">
+                </div>
+                <div class="item">
+                    <img class="item1" src="./images/images/aircrafts/try2.jpg">
+                </div>
+                <div class="item">
+                    <img class="item1" src="./images/images/aircrafts/try3.jpg">
+                </div>
+                <div class="item">
+                    <img class="item1" src="./images/images/aircrafts/try4.jpg">
+                </div>
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+            <hr>
+<hr>
+			<div class="form">
+<form id = "1" class="search">
+<div class="search-text">Заполните поля для поиска подходящего рейса</div>
+<div class="eyeliner">Откуда:
+<select class="test-0-fd" required="required">
+<option></option>
+<option>Москва</option>
+<option>Санкт-Петербург</option>
+<option>Екатеринбург</option>
+<option>Севастополь</option>
+</select>
+</div>
+<br>
+<div class="eyeliner">Куда:
+<select class="test-0-fa" required="required">
+<option></option>
+<option>Рязань</option>
+<option>Краснодар</option>
+<option>Сочи</option>
+<option>Самара</option>
+</select>
+</div>
+<br>
+<div class="eyeliner">Туда:
+<input class="test-0-fdt-" type="date" required="required"></div>
+<br>
+<div class="eyeliner">Обратно:
+<input class="test-0-fat" type="date" required="required"></div>
+<br>
+<div class="eyeliner">Количество человек:<input class="test-0-fnp" type="number" min="1" max="8" required="required"></div>
+</br>
+<input class="test-0-fbs" type="submit" name="Отправить" value="Поиск рейсов" required="required">
+</form>
+			<div class="stocks">
+			<h3 class="position">Акции</h3>
+                <div class="sales">
+                  <div class="sale">
+                    <img src="Media/promotion1.jpg" alt="sale" class="test-0-ai">
+                    <div class="sale-text">
+                      <div class="test-0-an">
+                        <h3 class="test-0-an">Возврат и изменение ваших билетов </h3>
+                      </div>
+                      <div class="sale-info">
+                        <div class="test-0-ad">Пандемия изменила планы многих путешественников, но мы знаем, что она не будет длиться вечно.
+                          Как только все это закончится, мы продолжим исследовать этот мир так, как раньше.
+                          Специальные правила, разработанные для этой непростой ситуации, помогут вам отменить поездку или отложить на потом.
+                        </div>
+                      </div>
+                      <div class="sale-buttons">
+                        <button class="test-0-abm"><span class="button-sale-text">Просмотр
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="sale">
+                  <img src="Media/promotion2.jpg" alt="Pozd" class="test-0-ai">
+                  <div class="sale-text">
+                    <div class="test-0-an">
+                      <h3 class="test-0-an"> Лучшие предложения </h3>
+                    </div>
+                    <div class="sale-info">
+                      <div class="test-0-ad">Чтобы снова увидеть улицы, которые были свидетелями так много. Чтобы обнять своих любимых и оглянуться, чтобы увидетьчерез что вы прошли. И думать о новых мечтах, которые будут такими особенными!
+                      </div>
+                    </div>
+                    <div class="sale-buttons">
+                      <button class="test-0-abm"><span class="button-sale-text">Просмотр
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="sale">
+                <img src="Media/promotion3.jpg" alt="Pozd" class="test-0-ai">
+                <div class="sale-text">
+                  <div class="test-0-an">
+                    <h3 class="test-0-an"> Увидимся чаще </h3>
+                  </div>
+                  <div class="sale-info">
+                    <div class="test-0-ad">С начала января мы расширяем географию полетов по России, чтобы вы могли
+                      чаще видеться с любимыми. Выбирайте нашу компанию, чтобы лететь туда, где вас всегда ждут.
+                    </div>
+                  </div>
+                  <div class="sale-buttons">
+                    <button class="test-0-abm"><span class="button-sale-text">Просмотр
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="sale">
+              <img src="Media/promotion4.jpg" alt="Pozd" class="test-0-ai">
+              <div class="sale-text">
+                <div class="test-0-an">
+                  <h3 class="test-0-an"> Все снова включено </h3>
+                </div>
+                <div class="sale-info">
+                  <div class="test-0-ad">С 10 августа мы возобновим полеты в Турцию. Рейсы из Москвы в Анталию будут выполняться дважды
+                    в день ежедневно, а рейсы по маршруту Москва — Даламан будут выполняться от трех до семи раз в неделю.
+                  </div>
+                </div>
+                <div class="sale-buttons">
+                  <button class="test-0-abm"><span class="button-sale-text">Просмотр
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+			</div>
+		</div>
+            <div class="content">
+                <h2><a id="2" href="1">Контакты</a></h2>
+                <div class="info">
+                    <p>Связаться с нами вы можете по телефону<br>
+                     +7 (985) 560-62-05<br>
+                    А также по адресу - г. Коломна, ул. Черняховского, д.5, офис находится на втором этаже здания&nbsp;</p>
+                </div>
+                <div class="info">
+                    <p>Каждый год мы перевозим более 7 000 000 человек. От нашего профессионализма зависят комфорт и безопасность пассажиров, четкость и скорость наземного обслуживания самолета и регулярность рейсов.
+                    </p>
+                </div>
+                <div class="info">
+                  <p>Основные принципы работы сервиса:<br>
+                      - Выбрать удобную дату перелета.<br>
+                      - Накопить больше 50% бронирований на рейс.<br>
+                      - Получить снижение стоимости. </p>
+                    <p>&nbsp;</p>
+                </div>
+				<div class="koguvcavis-varazdel">
+  <div class="sestim-donials">
+  <h1>Отзывы</h1>
+  <div class="sectionesag"></div>
+  <div class="sagestim-lonials">
+  <div class="vemotau-vokusipol">
+  <div class="testimonial">
+  <img src="images/аватар.jpg" alt="">
+  <div class="gecedanam">Данила Городничев</div>
+  <div class="apogered-gselected">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  </div>
+
+  <p>Отличная компания</p>
+  </div>
+  </div>
+
+  <div class="vemotau-vokusipol">
+  <div class="testimonial">
+  <img src="images/аватар.jpg" alt="">
+  <div class="gecedanam">Дмитрий Платонов</div>
+  <div class="apogered-gselected">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="far fa-star"></i>
+  <i class="far fa-star"></i>
+  </div>
+  <p>Отличная компания</p>
+  </div>
+  </div>
+  <div class="vemotau-vokusipol">
+  <div class="testimonial">
+  <img src="images/аватар.jpg" alt="">
+  <div class="gecedanam">Владислав Михеев</div>
+  <div class="apogered-gselected">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="far fa-star"></i>
+  </div>
+
+  <p>Отличная компания
+  </p>
+  </div>
+  </div>
+  </div>
+	  <div class="koguvcavis-varazdel">
+  <div class="sestim-donials">
+  <div></div>
+  <div class="sagestim-lonials">
+  <div class="vemotau-vokusipol">
+  <div class="testimonial">
+  <img src="images/аватар.jpg" alt="">
+  <div class="gecedanam">Антон Холмецов</div>
+  <div class="apogered-gselected">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  </div>
+
+  <p>Отличная компания</p>
+  </div>
+  </div>
+
+  <div class="vemotau-vokusipol">
+  <div class="testimonial">
+  <img src="images/аватар.jpg" alt="">
+  <div class="gecedanam">Владислав Поздняков</div>
+  <div class="apogered-gselected">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="far fa-star"></i>
+  <i class="far fa-star"></i>
+  </div>
+
+  <p>Отличная компания</p>
+  </div>
+  </div>
+
+  <div class="vemotau-vokusipol">
+  <div class="testimonial">
+  <img src="images/аватар.jpg" alt="">
+  <div class="gecedanam">Никита Скорочкин</div>
+  <div class="apogered-gselected">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="far fa-star"></i>
+  </div>
+
+  <p>Отличная компания
+  </p>
+  </div>
+  </div>
+  </div>
+		  </div>
+	  </div>
+            </div>
+	</div>
+	
+            <div class="form">
+                <form action="">
+                    <h1 class="fo">Подпишитесь на наши предложения</h1>
+                    <div class="input">
+                        <div class="input-container">
+                            <input type="mail" required="" />
+                            <label>Email</label>
+                        </div>
+                        <button type="button" class="custom-btn btn-16">Подписаться</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+      <p>Наши социальные сети!</p>
+            <table class="table1">
+        </div>
+    <tr>
+        <p>
+            <td><a href=" class="img1"><img src="images/twitter.png" width="50" height="50" alt="twitter"><br></a></td>
+            <td><img src="images/insta.png" width="48" height="48" alt="instagram"><br></td>
+            <td><a href="https://vk.com/thebezst" class="img1"><img src="images/vk.png" width="50" height="50" alt="vkontakte"><br></a></td>
+        </p>
+    </tr>
+            </table>
+            <p>Наша почта flighpool@gmail.com</p>
+            <p>Телефон технической поддержки +7 (916) 505-49-82</p>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
